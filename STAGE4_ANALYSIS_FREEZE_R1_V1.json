@@ -1,0 +1,14 @@
+{
+  "analysis_amendment_sha256": "a6038633d5c073a031a5dc3e95900e5514d1aa717d4be7da8e0de74f311cc76c",
+  "analysis_script_sha256": "4ef82919b39f0d8214dc0853e71fc3b9de281e16511116fae87b8d87437fec92",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 2026081404,
+  "canonical_collection_sha256": "0b5665a3b5153181e621c6dff1a7c05723f8248a3a2578dfeaaf22b1b43e4a43",
+  "collection_freeze_sha256": "5f09b57084155ebd9964adae81fc805725201d1540cea58205fe603cecc9a448",
+  "created_utc": "2026-11-01T03:51:37.857479+00:00",
+  "no_model_api_calls": true,
+  "report_sha256": "d836033e49329146bcb0d60ef482c948848ac42a79008c0f23cbce3b2c2adb46",
+  "results_sha256": "bfd9687b88d07e31ba4d7cf187948b1cc595964feb5075dc1ceabec32d7d46cc",
+  "status": "STAGE4_PRIMARY_ANALYSIS_COMPLETE",
+  "version": "STAGE4_ANALYSIS_FREEZE_R1_V1"
+}

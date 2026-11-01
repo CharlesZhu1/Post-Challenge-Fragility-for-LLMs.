@@ -1,0 +1,65 @@
+{
+  "canonical_assignments": 7132,
+  "canonical_collection_path": "/home/charles/sibyl_v2/control_protocol/extension_C_matched_three_model_v1/stage4_reversibility_v1/canonical_collection_r1_v1/STAGE4_CANONICAL_COLLECTION_R1_V1.jsonl",
+  "canonical_collection_sha256": "0b5665a3b5153181e621c6dff1a7c05723f8248a3a2578dfeaaf22b1b43e4a43",
+  "canonical_order": "FROZEN_AMENDED_MANIFEST_ORDER",
+  "created_utc": "2026-08-15T01:20:21.136308+00:00",
+  "duplicate_assignment_ids": 0,
+  "expected_assignments": 7132,
+  "extra_assignment_ids": 0,
+  "failed_final_policy": "PRESERVE_AS_OPERATIONAL_MISSING_NO_REGENERATION",
+  "manifest_sha256": "899c04eb5201fa501f624e111ccd539a53cf66583709196771f6d5bfbdb237b0",
+  "missing_manifest_assignment_ids": 0,
+  "missingness_accounting": {
+    "FAILED_FINAL": 1,
+    "REQUEST_STARTED": 1,
+    "UNKNOWN_PROVIDER_OUTCOME": 2,
+    "total_operational_missing": 4
+  },
+  "notes": [
+    "Canonical merge combines the original master collection with seven deterministic execution shards.",
+    "This step performs operational-state accounting only and does not compute Stage-4 scientific outcomes."
+  ],
+  "operational_status_counts": {
+    "FAILED_FINAL": 1,
+    "REQUEST_STARTED": 1,
+    "SUCCESS": 7128,
+    "UNKNOWN_PROVIDER_OUTCOME": 2
+  },
+  "request_started_master_policy": "PRESERVE_AS_OPERATIONAL_MISSING_NO_RETRY",
+  "scientific_outcome_analysis_performed": false,
+  "scientific_results_inspected_by_this_step": false,
+  "source_assignment_counts": {
+    "MASTER": 310,
+    "SHARD0": 975,
+    "SHARD1": 974,
+    "SHARD2": 975,
+    "SHARD3": 975,
+    "SHARD4": 974,
+    "SHARD5": 974,
+    "SHARD6": 975
+  },
+  "source_provider_calls": {
+    "MASTER": 311,
+    "SHARD0": 975,
+    "SHARD1": 975,
+    "SHARD2": 979,
+    "SHARD3": 975,
+    "SHARD4": 975,
+    "SHARD5": 974,
+    "SHARD6": 976
+  },
+  "source_state_sha256": {
+    "MASTER": "63feccdd1d61127534f760bfe60d8db75e2c319396ed3b15bc422b06e57ef3c8",
+    "SHARD0": "bd79e7a3c38c7ca38f11fe617dbc4564ee021b36f9f7d46783f72ed3c8f617f5",
+    "SHARD1": "58064df6bb4a308df1e9e490471937aa479a64273013efc9054482374b688a37",
+    "SHARD2": "e3657dffc61c3e0eb3a0cbeea375da9cb8a33d6306c40e578231ce71e46ca42d",
+    "SHARD3": "edc383fa3afdfda91444d2a9f1aa795f9eecb871a6e35b40609030ce732d0a36",
+    "SHARD4": "4018e123de2ebfd3536494679ffdfadaa244f1bfb419b4ef981423e2b709f2fe",
+    "SHARD5": "6f8e5e21e262c0a08912c0efb2f1efb7a751049f13dd9a6043ec6c10e6784248",
+    "SHARD6": "28b8248f5189ea2698bd71dbc998391b8d429f954beb3b3b51f5a07d39f6bb52"
+  },
+  "status": "COLLECTION_TERMINAL_AND_CANONICALLY_MERGED",
+  "unknown_outcome_policy": "PRESERVE_AS_OPERATIONAL_MISSING_NO_RETRY",
+  "version": "STAGE4_CANONICAL_COLLECTION_FREEZE_R1_V1"
+}

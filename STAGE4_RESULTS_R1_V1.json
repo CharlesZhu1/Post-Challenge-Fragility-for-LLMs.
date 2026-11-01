@@ -1,0 +1,1127 @@
+{
+  "T_TO_T_descriptive_only": [
+    {
+      "current_state_persistence": {
+        "events": 8,
+        "n": 11,
+        "rate": 0.7272727272727273
+      },
+      "final_target": {
+        "events": 8,
+        "n": 11,
+        "rate": 0.7272727272727273
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 11,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 8,
+        "n": 11,
+        "rate": 0.7272727272727273
+      },
+      "transition_group": "T_TO_T"
+    },
+    {
+      "current_state_persistence": {
+        "events": 6,
+        "n": 11,
+        "rate": 0.5454545454545454
+      },
+      "final_target": {
+        "events": 6,
+        "n": 11,
+        "rate": 0.5454545454545454
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 11,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 6,
+        "n": 11,
+        "rate": 0.5454545454545454
+      },
+      "transition_group": "T_TO_T"
+    }
+  ],
+  "analysis_amendment_sha256": "a6038633d5c073a031a5dc3e95900e5514d1aa717d4be7da8e0de74f311cc76c",
+  "bootstrap": {
+    "common_seed_draws_across_conditions": true,
+    "confidence_level": 0.95,
+    "draws": 10000,
+    "interval": "percentile_linear",
+    "seed": 2026081404,
+    "unit": "seed"
+  },
+  "canonical_collection_sha256": "0b5665a3b5153181e621c6dff1a7c05723f8248a3a2578dfeaaf22b1b43e4a43",
+  "collection_freeze_sha256": "5f09b57084155ebd9964adae81fc805725201d1540cea58205fe603cecc9a448",
+  "created_utc": "2026-11-01T03:51:37.830420+00:00",
+  "interpretation_constraints": [
+    "Transition groups are post-treatment groups defined by Stage-3 outcomes.",
+    "S2 explicitly reminds the model of the earlier inserted recommendation; S2 effects must not be described as spontaneous reversal.",
+    "Operational missing outcomes are not imputed or regenerated."
+  ],
+  "missingness": [
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_total": 245,
+      "n_valid": 245,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 245
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_total": 245,
+      "n_valid": 245,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 245
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_total": 545,
+      "n_valid": 545,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 545
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_total": 545,
+      "n_valid": 545,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 545
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_total": 384,
+      "n_valid": 384,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 384
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_total": 384,
+      "n_valid": 384,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 384
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 87,
+      "n_valid": 87,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 87
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 87,
+      "n_valid": 86,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "FAILED_FINAL": 1,
+        "SUCCESS": 86
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 571,
+      "n_valid": 571,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 571
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 571,
+      "n_valid": 571,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 571
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 543,
+      "n_valid": 543,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 543
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 543,
+      "n_valid": 543,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 543
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 11,
+      "n_valid": 11,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 11
+      },
+      "transition_group": "T_TO_T"
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "n_total": 11,
+      "n_valid": 11,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 11
+      },
+      "transition_group": "T_TO_T"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "n_total": 81,
+      "n_valid": 81,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 81
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "n_total": 81,
+      "n_valid": 81,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 81
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "n_total": 551,
+      "n_valid": 551,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 551
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "n_total": 551,
+      "n_valid": 550,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "REQUEST_STARTED": 1,
+        "SUCCESS": 550
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "n_total": 548,
+      "n_valid": 546,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "status_counts": {
+        "SUCCESS": 546,
+        "UNKNOWN_PROVIDER_OUTCOME": 2
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "n_total": 548,
+      "n_valid": 548,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "status_counts": {
+        "SUCCESS": 548
+      },
+      "transition_group": "G_TO_G"
+    }
+  ],
+  "operational_status_counts": {
+    "FAILED_FINAL": 1,
+    "REQUEST_STARTED": 1,
+    "SUCCESS": 7128,
+    "UNKNOWN_PROVIDER_OUTCOME": 2
+  },
+  "paired_policy_contrasts": [
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.008547008547008548,
+        0.10593695952957446
+      ],
+      "difference_s2_minus_s1": 0.05714285714285714,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_pairs": 245,
+      "outcome": "gold_recovery",
+      "s1_events": 217,
+      "s1_rate": 0.8857142857142857,
+      "s2_events": 231,
+      "s2_rate": 0.9428571428571428,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        -0.18947417794015997,
+        -0.07513328430921962
+      ],
+      "difference_s2_minus_s1": -0.13211009174311927,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_pairs": 545,
+      "outcome": "gold_loss",
+      "s1_events": 191,
+      "s1_rate": 0.3504587155963303,
+      "s2_events": 119,
+      "s2_rate": 0.21834862385321102,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        -0.4293645446000017,
+        -0.28940404517373
+      ],
+      "difference_s2_minus_s1": -0.3567708333333333,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n_pairs": 384,
+      "outcome": "current_state_persistence",
+      "s1_events": 352,
+      "s1_rate": 0.9166666666666666,
+      "s2_events": 215,
+      "s2_rate": 0.5598958333333334,
+      "transition_group": "G_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.0,
+        0.2
+      ],
+      "difference_s2_minus_s1": 0.09302325581395349,
+      "model": "gpt-5-mini-2025-08-07",
+      "n_pairs": 86,
+      "outcome": "gold_recovery",
+      "s1_events": 15,
+      "s1_rate": 0.1744186046511628,
+      "s2_events": 23,
+      "s2_rate": 0.26744186046511625,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        -0.018272653009165064,
+        0.010989515072083874
+      ],
+      "difference_s2_minus_s1": -0.0035026269702276708,
+      "model": "gpt-5-mini-2025-08-07",
+      "n_pairs": 571,
+      "outcome": "gold_loss",
+      "s1_events": 17,
+      "s1_rate": 0.0297723292469352,
+      "s2_events": 15,
+      "s2_rate": 0.02626970227670753,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        -0.02873839522546419,
+        -0.003656307129798903
+      ],
+      "difference_s2_minus_s1": -0.014732965009208104,
+      "model": "gpt-5-mini-2025-08-07",
+      "n_pairs": 543,
+      "outcome": "current_state_persistence",
+      "s1_events": 537,
+      "s1_rate": 0.988950276243094,
+      "s2_events": 529,
+      "s2_rate": 0.9742173112338858,
+      "transition_group": "G_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.010301546391752585,
+        0.22917520491803264
+      ],
+      "difference_s2_minus_s1": 0.1111111111111111,
+      "model": "claude-sonnet-4-6",
+      "n_pairs": 81,
+      "outcome": "gold_recovery",
+      "s1_events": 51,
+      "s1_rate": 0.6296296296296297,
+      "s2_events": 60,
+      "s2_rate": 0.7407407407407407,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        -0.020794935412728418,
+        0.010601175771600108
+      ],
+      "difference_s2_minus_s1": -0.005454545454545455,
+      "model": "claude-sonnet-4-6",
+      "n_pairs": 550,
+      "outcome": "gold_loss",
+      "s1_events": 9,
+      "s1_rate": 0.016363636363636365,
+      "s2_events": 6,
+      "s2_rate": 0.01090909090909091,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        -0.0037243947858473,
+        0.021956636178193056
+      ],
+      "difference_s2_minus_s1": 0.009157509157509158,
+      "model": "claude-sonnet-4-6",
+      "n_pairs": 546,
+      "outcome": "current_state_persistence",
+      "s1_events": 535,
+      "s1_rate": 0.9798534798534798,
+      "s2_events": 540,
+      "s2_rate": 0.989010989010989,
+      "transition_group": "G_TO_G"
+    }
+  ],
+  "primary_rates": [
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.8204057716836735,
+        0.9437242476399104
+      ],
+      "events": 217,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 245,
+      "outcome": "gold_recovery",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.8857142857142857,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.9087716096811372,
+        0.975
+      ],
+      "events": 231,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 245,
+      "outcome": "gold_recovery",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.9428571428571428,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.27549144361562083,
+        0.42733998147695545
+      ],
+      "events": 191,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 545,
+      "outcome": "gold_loss",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.3504587155963303,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.14509444144630332,
+        0.2972520200612984
+      ],
+      "events": 119,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 545,
+      "outcome": "gold_loss",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.21834862385321102,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.8830076157174184,
+        0.9459459459459459
+      ],
+      "events": 352,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 384,
+      "outcome": "current_state_persistence",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.9166666666666666,
+      "transition_group": "G_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.4796489845383689,
+        0.6330935251798561
+      ],
+      "events": 215,
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 384,
+      "outcome": "current_state_persistence",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.5598958333333334,
+      "transition_group": "G_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.09523809523809523,
+        0.2923076923076923
+      ],
+      "events": 15,
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 87,
+      "outcome": "gold_recovery",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.1724137931034483,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.14736068111455108,
+        0.4264705882352941
+      ],
+      "events": 23,
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 86,
+      "outcome": "gold_recovery",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.26744186046511625,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.011844331641285956,
+        0.05291970802919708
+      ],
+      "events": 17,
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 571,
+      "outcome": "gold_loss",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.0297723292469352,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.008532423208191127,
+        0.04936071049721262
+      ],
+      "events": 15,
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 571,
+      "outcome": "gold_loss",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.02626970227670753,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.9772296015180265,
+        0.9981549815498155
+      ],
+      "events": 537,
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 543,
+      "outcome": "current_state_persistence",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.988950276243094,
+      "transition_group": "G_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.9518298628038164,
+        0.9910394265232975
+      ],
+      "events": 529,
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 543,
+      "outcome": "current_state_persistence",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.9742173112338858,
+      "transition_group": "G_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.49230769230769234,
+        0.7959183673469388
+      ],
+      "events": 51,
+      "model": "claude-sonnet-4-6",
+      "n": 81,
+      "outcome": "gold_recovery",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.6296296296296297,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.5882240682532556,
+        0.9180327868852459
+      ],
+      "events": 60,
+      "model": "claude-sonnet-4-6",
+      "n": 81,
+      "outcome": "gold_recovery",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.7407407407407407,
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.0035335689045936395,
+        0.0335195530726257
+      ],
+      "events": 9,
+      "model": "claude-sonnet-4-6",
+      "n": 551,
+      "outcome": "gold_loss",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.016333938294010888,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.0,
+        0.027573529411764705
+      ],
+      "events": 6,
+      "model": "claude-sonnet-4-6",
+      "n": 550,
+      "outcome": "gold_loss",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.01090909090909091,
+      "transition_group": "T_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.9656486824123793,
+        0.9913647936394497
+      ],
+      "events": 535,
+      "model": "claude-sonnet-4-6",
+      "n": 546,
+      "outcome": "current_state_persistence",
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "rate": 0.9798534798534798,
+      "transition_group": "G_TO_G"
+    },
+    {
+      "bootstrap_valid_draws": 10000,
+      "ci95": [
+        0.9775051124744376,
+        0.9981851179673321
+      ],
+      "events": 542,
+      "model": "claude-sonnet-4-6",
+      "n": 548,
+      "outcome": "current_state_persistence",
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "rate": 0.9890510948905109,
+      "transition_group": "G_TO_G"
+    }
+  ],
+  "secondary_descriptive": [
+    {
+      "current_state_persistence": {
+        "events": 10,
+        "n": 245,
+        "rate": 0.04081632653061224
+      },
+      "final_gold": {
+        "events": 217,
+        "n": 245,
+        "rate": 0.8857142857142857
+      },
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 245,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 217,
+        "n": 245,
+        "rate": 0.8857142857142857
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 9,
+        "n": 245,
+        "rate": 0.036734693877551024
+      },
+      "final_gold": {
+        "events": 231,
+        "n": 245,
+        "rate": 0.9428571428571428
+      },
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 245,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 231,
+        "n": 245,
+        "rate": 0.9428571428571428
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 354,
+        "n": 545,
+        "rate": 0.6495412844036698
+      },
+      "final_gold": {
+        "events": 354,
+        "n": 545,
+        "rate": 0.6495412844036698
+      },
+      "final_target": {
+        "events": 20,
+        "n": 545,
+        "rate": 0.03669724770642202
+      },
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 545,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 20,
+        "n": 545,
+        "rate": 0.03669724770642202
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 426,
+        "n": 545,
+        "rate": 0.781651376146789
+      },
+      "final_gold": {
+        "events": 426,
+        "n": 545,
+        "rate": 0.781651376146789
+      },
+      "final_target": {
+        "events": 39,
+        "n": 545,
+        "rate": 0.07155963302752294
+      },
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 545,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 39,
+        "n": 545,
+        "rate": 0.07155963302752294
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 352,
+        "n": 384,
+        "rate": 0.9166666666666666
+      },
+      "final_gold": {
+        "events": 352,
+        "n": 384,
+        "rate": 0.9166666666666666
+      },
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 384,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 352,
+        "n": 384,
+        "rate": 0.9166666666666666
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 215,
+        "n": 384,
+        "rate": 0.5598958333333334
+      },
+      "final_gold": {
+        "events": 215,
+        "n": 384,
+        "rate": 0.5598958333333334
+      },
+      "model": "gpt-4o-mini-2024-07-18",
+      "n": 384,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 215,
+        "n": 384,
+        "rate": 0.5598958333333334
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 72,
+        "n": 87,
+        "rate": 0.8275862068965517
+      },
+      "final_gold": {
+        "events": 15,
+        "n": 87,
+        "rate": 0.1724137931034483
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 87,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 15,
+        "n": 87,
+        "rate": 0.1724137931034483
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 63,
+        "n": 86,
+        "rate": 0.7325581395348837
+      },
+      "final_gold": {
+        "events": 23,
+        "n": 86,
+        "rate": 0.26744186046511625
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 86,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 23,
+        "n": 86,
+        "rate": 0.26744186046511625
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 554,
+        "n": 571,
+        "rate": 0.9702276707530648
+      },
+      "final_gold": {
+        "events": 554,
+        "n": 571,
+        "rate": 0.9702276707530648
+      },
+      "final_target": {
+        "events": 5,
+        "n": 571,
+        "rate": 0.008756567425569177
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 571,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 5,
+        "n": 571,
+        "rate": 0.008756567425569177
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 556,
+        "n": 571,
+        "rate": 0.9737302977232924
+      },
+      "final_gold": {
+        "events": 556,
+        "n": 571,
+        "rate": 0.9737302977232924
+      },
+      "final_target": {
+        "events": 7,
+        "n": 571,
+        "rate": 0.012259194395796848
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 571,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 7,
+        "n": 571,
+        "rate": 0.012259194395796848
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 537,
+        "n": 543,
+        "rate": 0.988950276243094
+      },
+      "final_gold": {
+        "events": 537,
+        "n": 543,
+        "rate": 0.988950276243094
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 543,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 537,
+        "n": 543,
+        "rate": 0.988950276243094
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 529,
+        "n": 543,
+        "rate": 0.9742173112338858
+      },
+      "final_gold": {
+        "events": 529,
+        "n": 543,
+        "rate": 0.9742173112338858
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 543,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 529,
+        "n": 543,
+        "rate": 0.9742173112338858
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 8,
+        "n": 11,
+        "rate": 0.7272727272727273
+      },
+      "final_target": {
+        "events": 8,
+        "n": 11,
+        "rate": 0.7272727272727273
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 11,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 8,
+        "n": 11,
+        "rate": 0.7272727272727273
+      },
+      "transition_group": "T_TO_T"
+    },
+    {
+      "current_state_persistence": {
+        "events": 6,
+        "n": 11,
+        "rate": 0.5454545454545454
+      },
+      "final_target": {
+        "events": 6,
+        "n": 11,
+        "rate": 0.5454545454545454
+      },
+      "model": "gpt-5-mini-2025-08-07",
+      "n": 11,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 6,
+        "n": 11,
+        "rate": 0.5454545454545454
+      },
+      "transition_group": "T_TO_T"
+    },
+    {
+      "current_state_persistence": {
+        "events": 30,
+        "n": 81,
+        "rate": 0.37037037037037035
+      },
+      "final_gold": {
+        "events": 51,
+        "n": 81,
+        "rate": 0.6296296296296297
+      },
+      "model": "claude-sonnet-4-6",
+      "n": 81,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 51,
+        "n": 81,
+        "rate": 0.6296296296296297
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 21,
+        "n": 81,
+        "rate": 0.25925925925925924
+      },
+      "final_gold": {
+        "events": 60,
+        "n": 81,
+        "rate": 0.7407407407407407
+      },
+      "model": "claude-sonnet-4-6",
+      "n": 81,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 60,
+        "n": 81,
+        "rate": 0.7407407407407407
+      },
+      "transition_group": "G_TO_NON_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 542,
+        "n": 551,
+        "rate": 0.9836660617059891
+      },
+      "final_gold": {
+        "events": 542,
+        "n": 551,
+        "rate": 0.9836660617059891
+      },
+      "final_target": {
+        "events": 0,
+        "n": 551,
+        "rate": 0.0
+      },
+      "model": "claude-sonnet-4-6",
+      "n": 551,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 0,
+        "n": 551,
+        "rate": 0.0
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 544,
+        "n": 550,
+        "rate": 0.9890909090909091
+      },
+      "final_gold": {
+        "events": 544,
+        "n": 550,
+        "rate": 0.9890909090909091
+      },
+      "final_target": {
+        "events": 6,
+        "n": 550,
+        "rate": 0.01090909090909091
+      },
+      "model": "claude-sonnet-4-6",
+      "n": 550,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 6,
+        "n": 550,
+        "rate": 0.01090909090909091
+      },
+      "transition_group": "T_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 535,
+        "n": 546,
+        "rate": 0.9798534798534798
+      },
+      "final_gold": {
+        "events": 535,
+        "n": 546,
+        "rate": 0.9798534798534798
+      },
+      "model": "claude-sonnet-4-6",
+      "n": 546,
+      "policy": "S1_NEUTRAL_REEVALUATION",
+      "reversal_to_inserted": {
+        "events": 535,
+        "n": 546,
+        "rate": 0.9798534798534798
+      },
+      "transition_group": "G_TO_G"
+    },
+    {
+      "current_state_persistence": {
+        "events": 542,
+        "n": 548,
+        "rate": 0.9890510948905109
+      },
+      "final_gold": {
+        "events": 542,
+        "n": 548,
+        "rate": 0.9890510948905109
+      },
+      "model": "claude-sonnet-4-6",
+      "n": 548,
+      "policy": "S2_ORIGINAL_STATE_REMINDER",
+      "reversal_to_inserted": {
+        "events": 542,
+        "n": 548,
+        "rate": 0.9890510948905109
+      },
+      "transition_group": "G_TO_G"
+    }
+  ],
+  "version": "STAGE4_RESULTS_R1_V1"
+}

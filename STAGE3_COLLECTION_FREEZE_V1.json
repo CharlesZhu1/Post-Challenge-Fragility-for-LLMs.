@@ -1,0 +1,54 @@
+{
+  "collection_status": "FROZEN",
+  "failed_final": 5,
+  "failed_final_assignment_ids": [
+    "STAGE3::claude-sonnet-4-6::g4_123S_adverse_document_summarization_15::T::R3::R1",
+    "STAGE3::claude-sonnet-4-6::g4_123S_insurance_annuity_suitability_20::T::R1::R1",
+    "STAGE3::claude-sonnet-4-6::g4_123S_portfolio_suitability_06::G::R3::R1",
+    "STAGE3::gpt-4o-mini-2024-07-18::g4_111R_annuity_03::T::R2::R3",
+    "STAGE3::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_13::G::R1::R2"
+  ],
+  "files": {
+    "analysis_prefreeze": {
+      "path": "/home/charles/sibyl_v2/control_protocol/extension_C_matched_three_model_v1/stage3_parent_state_intervention/stage3_analysis/STAGE3_ANALYSIS_PREFREEZE_V1.json",
+      "sha256": "9e4247a5c872bb5acfe764a665dc6ed7d143c8199838b4f0f2665ffc7a070669"
+    },
+    "analysis_script": {
+      "path": "/home/charles/sibyl_v2/control_protocol/extension_C_matched_three_model_v1/stage3_parent_state_intervention/stage3_analysis/run_stage3_analysis_v1.py",
+      "sha256": "7dd6da0a9a39cacaf1670994ac1839b37357e68ddfaeda5e5b2396264115e523"
+    },
+    "analysis_spec": {
+      "path": "/home/charles/sibyl_v2/control_protocol/extension_C_matched_three_model_v1/stage3_parent_state_intervention/stage3_analysis/STAGE3_ANALYSIS_SPEC_V1.json",
+      "sha256": "616bf3c6d806a9d2561bfd7a107922c0c6970d958cb86925d5bc124851b088a2"
+    },
+    "assignment_manifest": {
+      "path": "/home/charles/sibyl_v2/control_protocol/extension_C_matched_three_model_v1/stage3_parent_state_intervention/frozen/STAGE3_DESCENDANT_ASSIGNMENTS_3780_V1.csv",
+      "sha256": "e0102dba304cb82625b029e787c5fab80a1f2c3992c88758d0b7128662a8bd8a"
+    },
+    "attempts_jsonl": {
+      "path": "/home/charles/sibyl_v2/control_protocol/extension_C_matched_three_model_v1/stage3_parent_state_intervention/runs/STAGE3-SCI-PARENTSTATE-V1/attempts.jsonl",
+      "sha256": "a1960a8e865f59ee4efe76c296ab0853f018e339598ad05b6aefd02b3593aaa9"
+    },
+    "state_json": {
+      "path": "/home/charles/sibyl_v2/control_protocol/extension_C_matched_three_model_v1/stage3_parent_state_intervention/runs/STAGE3-SCI-PARENTSTATE-V1/state.json",
+      "sha256": "1b85fadefa1ee1b671da9d72fec33e927edb3f063b0c9d2b3c3bce76d0a043a8"
+    }
+  },
+  "frozen_utc": "2026-08-14T14:54:25.280714+00:00",
+  "global_halt": null,
+  "manual_resolution_records": 5,
+  "missingness_policy": {
+    "failed_final": "Missing; no regeneration or imputation.",
+    "primary_analysis": ">=2 valid SUCCESS replicates per required cell.",
+    "strict_sensitivity": "3/3 valid SUCCESS replicates per required cell."
+  },
+  "planned_assignments": 3780,
+  "provider_calls": 3789,
+  "request_started": 0,
+  "retry_planned": 0,
+  "run_id": "STAGE3-SCI-PARENTSTATE-V1",
+  "success": 3775,
+  "terminal_assignments": 3780,
+  "unknown_provider_outcome": 0,
+  "version": "STAGE3_COLLECTION_FREEZE_V1"
+}

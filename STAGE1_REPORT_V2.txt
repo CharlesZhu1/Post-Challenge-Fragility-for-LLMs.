@@ -1,0 +1,222 @@
+========================================================================================
+STAGE 1 V2 — MATCHED THREE-MODEL ANALYSIS
+========================================================================================
+77 seeds total; 70 have exclusive complete G/T/N/U mappings.
+7 ambiguous-role seeds retained for gold/revision analyses but not forced into exclusive roles.
+
+========================================================================================
+A. WITHIN-MODEL CONTRASTS
+========================================================================================
+
+4o-mini
+  R1-R0 revision                    +50.6 pp N=77
+  R1-R0 final_gold                  -42.4 pp N=77
+  R2-R1 destabilization             -44.9 pp N=72
+  R3-R1 destabilization             +23.1 pp N=72
+  R2-R1 final_gold                  +42.9 pp N=77
+  R3-R1 final_gold                  -20.8 pp N=77
+
+5-mini
+  R1-R0 revision                     +6.7 pp N=77
+  R1-R0 final_gold                   -1.1 pp N=77
+  R2-R1 destabilization              -2.3 pp N=72
+  R3-R1 destabilization              +2.8 pp N=72
+  R2-R1 final_gold                   -0.6 pp N=77
+  R3-R1 final_gold                   -2.8 pp N=77
+
+Claude
+  R1-R0 revision                    +29.0 pp N=77
+  R1-R0 final_gold                   -7.4 pp N=77
+  R2-R1 destabilization             -18.1 pp N=68
+  R3-R1 destabilization              +2.0 pp N=68
+  R2-R1 final_gold                  +10.8 pp N=77
+  R3-R1 final_gold                   -3.0 pp N=77
+
+========================================================================================
+B. PAIRED CROSS-MODEL DiD
+========================================================================================
+
+4o-mini minus 5-mini
+  R1-R0 revision                    +43.9 pp 95% CI [+34.6,+53.2] pp N=77
+  R1-R0 final_gold                  -41.3 pp 95% CI [-51.9,-30.7] pp N=77
+  R2-R1 destabilization             -41.4 pp 95% CI [-51.0,-31.9] pp N=70
+  R3-R1 destabilization             +21.0 pp 95% CI [+11.9,+30.0] pp N=70
+  R2-R1 final_gold                  +43.5 pp 95% CI [+34.0,+53.0] pp N=77
+  R3-R1 final_gold                  -18.0 pp 95% CI [-26.8,-9.1] pp N=77
+
+4o-mini minus Claude
+  R1-R0 revision                    +21.6 pp 95% CI [+13.0,+30.7] pp N=77
+  R1-R0 final_gold                  -35.1 pp 95% CI [-50.6,-19.9] pp N=77
+  R2-R1 destabilization             -24.1 pp 95% CI [-33.3,-14.9] pp N=65
+  R3-R1 destabilization             +23.6 pp 95% CI [+12.8,+33.8] pp N=65
+  R2-R1 final_gold                  +32.0 pp 95% CI [+20.8,+43.7] pp N=77
+  R3-R1 final_gold                  -17.7 pp 95% CI [-27.7,-7.4] pp N=77
+
+Claude minus 5-mini
+  R1-R0 revision                    +22.3 pp 95% CI [+13.6,+31.6] pp N=77
+  R1-R0 final_gold                   -6.3 pp 95% CI [-19.5,+7.6] pp N=77
+  R2-R1 destabilization             -17.2 pp 95% CI [-25.5,-9.4] pp N=64
+  R3-R1 destabilization              -2.1 pp 95% CI [-8.3,+4.2] pp N=64
+  R2-R1 final_gold                  +11.5 pp 95% CI [+1.3,+21.6] pp N=77
+  R3-R1 final_gold                   -0.2 pp 95% CI [-6.5,+6.1] pp N=77
+
+========================================================================================
+C. STRICT COMPLETE-TRIPLICATE DiD
+========================================================================================
+
+4o-mini minus 5-mini
+  R1-R0 revision                    +45.2 pp 95% CI [+36.0,+53.9] pp N=76
+  R1-R0 final_gold                  -41.2 pp 95% CI [-51.8,-30.7] pp N=76
+  R2-R1 destabilization             -41.4 pp 95% CI [-51.0,-32.4] pp N=70
+  R3-R1 destabilization             +21.0 pp 95% CI [+11.9,+30.5] pp N=70
+  R2-R1 final_gold                  +42.1 pp 95% CI [+32.9,+51.8] pp N=76
+  R3-R1 final_gold                  -19.3 pp 95% CI [-28.1,-10.5] pp N=76
+
+4o-mini minus Claude
+  R1-R0 revision                    +21.6 pp 95% CI [+13.0,+30.7] pp N=77
+  R1-R0 final_gold                  -35.1 pp 95% CI [-50.2,-19.9] pp N=77
+  R2-R1 destabilization             -24.1 pp 95% CI [-33.3,-14.9] pp N=65
+  R3-R1 destabilization             +23.6 pp 95% CI [+13.3,+33.8] pp N=65
+  R2-R1 final_gold                  +32.0 pp 95% CI [+20.8,+43.3] pp N=77
+  R3-R1 final_gold                  -17.7 pp 95% CI [-27.7,-7.4] pp N=77
+
+Claude minus 5-mini
+  R1-R0 revision                    +23.2 pp 95% CI [+14.9,+32.5] pp N=76
+  R1-R0 final_gold                   -5.7 pp 95% CI [-18.9,+8.3] pp N=76
+  R2-R1 destabilization             -17.2 pp 95% CI [-26.0,-9.4] pp N=64
+  R3-R1 destabilization              -2.1 pp 95% CI [-8.3,+4.2] pp N=64
+  R2-R1 final_gold                  +11.0 pp 95% CI [+0.4,+21.5] pp N=76
+  R3-R1 final_gold                   +0.4 pp 95% CI [-5.7,+6.6] pp N=76
+
+========================================================================================
+D. ATTRIBUTE-AWARE DESTINATION OF GOLD LOSSES
+========================================================================================
+
+4o-mini
+  R0: losses=0 | target=0 (NA) | unsuitable=0 (NA) | neutral=0 (NA) | unclassified=0 (NA)
+  R1: losses=107 | target=18 (16.8%) | unsuitable=0 (0.0%) | neutral=88 (82.2%) | unclassified=1 (0.9%)
+  R2: losses=10 | target=2 (20.0%) | unsuitable=0 (0.0%) | neutral=8 (80.0%) | unclassified=0 (0.0%)
+  R3: losses=157 | target=26 (16.6%) | unsuitable=4 (2.5%) | neutral=126 (80.3%) | unclassified=3 (1.9%)
+  R4: losses=0 | target=0 (NA) | unsuitable=0 (NA) | neutral=0 (NA) | unclassified=0 (NA)
+
+5-mini
+  R0: losses=0 | target=0 (NA) | unsuitable=0 (NA) | neutral=0 (NA) | unclassified=0 (NA)
+  R1: losses=9 | target=1 (11.1%) | unsuitable=0 (0.0%) | neutral=8 (88.9%) | unclassified=0 (0.0%)
+  R2: losses=4 | target=0 (0.0%) | unsuitable=0 (0.0%) | neutral=4 (100.0%) | unclassified=0 (0.0%)
+  R3: losses=15 | target=2 (13.3%) | unsuitable=0 (0.0%) | neutral=12 (80.0%) | unclassified=1 (6.7%)
+  R4: losses=0 | target=0 (NA) | unsuitable=0 (NA) | neutral=0 (NA) | unclassified=0 (NA)
+
+Claude
+  R0: losses=0 | target=0 (NA) | unsuitable=0 (NA) | neutral=0 (NA) | unclassified=0 (NA)
+  R1: losses=42 | target=2 (4.8%) | unsuitable=0 (0.0%) | neutral=40 (95.2%) | unclassified=0 (0.0%)
+  R2: losses=5 | target=0 (0.0%) | unsuitable=0 (0.0%) | neutral=5 (100.0%) | unclassified=0 (0.0%)
+  R3: losses=46 | target=2 (4.3%) | unsuitable=0 (0.0%) | neutral=44 (95.7%) | unclassified=0 (0.0%)
+  R4: losses=0 | target=0 (NA) | unsuitable=0 (NA) | neutral=0 (NA) | unclassified=0 (NA)
+
+========================================================================================
+E. CLEAN-70 GOLD-PARENT G/T/N/U TRANSITIONS
+========================================================================================
+
+4o-mini
+  R0: G->G=195/195 (100.0%) | G->T=0/195 (0.0%) | G->N=0/195 (0.0%) | G->U=0/195 (0.0%)
+  R1: G->G=92/195 (47.2%) | G->T=18/195 (9.2%) | G->N=85/195 (43.6%) | G->U=0/195 (0.0%)
+  R2: G->G=185/195 (94.9%) | G->T=2/195 (1.0%) | G->N=8/195 (4.1%) | G->U=0/195 (0.0%)
+  R3: G->G=48/195 (24.6%) | G->T=24/195 (12.3%) | G->N=121/195 (62.1%) | G->U=2/195 (1.0%)
+  R4: G->G=195/195 (100.0%) | G->T=0/195 (0.0%) | G->N=0/195 (0.0%) | G->U=0/195 (0.0%)
+
+5-mini
+  R0: G->G=195/195 (100.0%) | G->T=0/195 (0.0%) | G->N=0/195 (0.0%) | G->U=0/195 (0.0%)
+  R1: G->G=186/195 (95.4%) | G->T=1/195 (0.5%) | G->N=8/195 (4.1%) | G->U=0/195 (0.0%)
+  R2: G->G=191/195 (97.9%) | G->T=0/195 (0.0%) | G->N=4/195 (2.1%) | G->U=0/195 (0.0%)
+  R3: G->G=181/195 (92.8%) | G->T=2/195 (1.0%) | G->N=12/195 (6.2%) | G->U=0/195 (0.0%)
+  R4: G->G=195/195 (100.0%) | G->T=0/195 (0.0%) | G->N=0/195 (0.0%) | G->U=0/195 (0.0%)
+
+Claude
+  R0: G->G=183/183 (100.0%) | G->T=0/183 (0.0%) | G->N=0/183 (0.0%) | G->U=0/183 (0.0%)
+  R1: G->G=141/183 (77.0%) | G->T=2/183 (1.1%) | G->N=40/183 (21.9%) | G->U=0/183 (0.0%)
+  R2: G->G=178/183 (97.3%) | G->T=0/183 (0.0%) | G->N=5/183 (2.7%) | G->U=0/183 (0.0%)
+  R3: G->G=137/183 (74.9%) | G->T=2/183 (1.1%) | G->N=44/183 (24.0%) | G->U=0/183 (0.0%)
+  R4: G->G=183/183 (100.0%) | G->T=0/183 (0.0%) | G->N=0/183 (0.0%) | G->U=0/183 (0.0%)
+
+========================================================================================
+F. FAMILY DECOMPOSITION
+========================================================================================
+
+4o-mini
+  adverse_document_summarization
+    R1: destab=29.8% final_gold=70.0% goldN=19
+    R2: destab=0.0% final_gold=98.3% goldN=19
+    R3: destab=57.9% final_gold=43.3% goldN=19
+  insurance_annuity_suitability
+    R1: destab=68.4% final_gold=31.7% goldN=19
+    R2: destab=7.0% final_gold=90.0% goldN=19
+    R3: destab=80.7% final_gold=20.0% goldN=19
+  loan_credit_steering
+    R1: destab=72.2% final_gold=30.0% goldN=18
+    R2: destab=7.4% final_gold=93.3% goldN=18
+    R3: destab=85.2% final_gold=21.7% goldN=18
+  portfolio_suitability
+    R1: destab=25.0% final_gold=76.5% goldN=16
+    R2: destab=4.2% final_gold=94.1% goldN=16
+    R3: destab=66.7% final_gold=37.3% goldN=16
+
+5-mini
+  adverse_document_summarization
+    R1: destab=0.0% final_gold=100.0% goldN=20
+    R2: destab=0.0% final_gold=100.0% goldN=20
+    R3: destab=0.0% final_gold=100.0% goldN=20
+  insurance_annuity_suitability
+    R1: destab=14.8% final_gold=81.7% goldN=18
+    R2: destab=7.4% final_gold=83.3% goldN=18
+    R3: destab=24.1% final_gold=73.3% goldN=18
+  loan_credit_steering
+    R1: destab=1.8% final_gold=95.8% goldN=19
+    R2: destab=0.0% final_gold=95.0% goldN=19
+    R3: destab=3.5% final_gold=93.3% goldN=19
+  portfolio_suitability
+    R1: destab=0.0% final_gold=92.2% goldN=15
+    R2: destab=0.0% final_gold=88.2% goldN=15
+    R3: destab=0.0% final_gold=92.2% goldN=15
+
+Claude
+  adverse_document_summarization
+    R1: destab=0.0% final_gold=100.0% goldN=18
+    R2: destab=0.0% final_gold=95.0% goldN=18
+    R3: destab=0.0% final_gold=100.0% goldN=18
+  insurance_annuity_suitability
+    R1: destab=42.2% final_gold=65.0% goldN=15
+    R2: destab=4.4% final_gold=78.3% goldN=15
+    R3: destab=37.8% final_gold=63.3% goldN=15
+  loan_credit_steering
+    R1: destab=42.6% final_gold=61.7% goldN=18
+    R2: destab=5.6% final_gold=95.0% goldN=18
+    R3: destab=48.1% final_gold=56.7% goldN=18
+  portfolio_suitability
+    R1: destab=0.0% final_gold=100.0% goldN=17
+    R2: destab=0.0% final_gold=100.0% goldN=17
+    R3: destab=5.9% final_gold=94.1% goldN=17
+
+========================================================================================
+G. REPLICATE HETEROGENEITY
+========================================================================================
+
+4o-mini overall: 311/385 (80.8%)
+  R0: 77/77 (100.0%)
+  R1: 49/77 (63.6%)
+  R2: 64/77 (83.1%)
+  R3: 44/77 (57.1%)
+  R4: 77/77 (100.0%)
+
+5-mini overall: 364/384 (94.8%)
+  R0: 77/77 (100.0%)
+  R1: 67/76 (88.2%)
+  R2: 76/77 (98.7%)
+  R3: 67/77 (87.0%)
+  R4: 77/77 (100.0%)
+
+Claude overall: 363/385 (94.3%)
+  R0: 77/77 (100.0%)
+  R1: 65/77 (84.4%)
+  R2: 75/77 (97.4%)
+  R3: 69/77 (89.6%)
+  R4: 77/77 (100.0%)

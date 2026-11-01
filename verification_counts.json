@@ -1,0 +1,14 @@
+{
+  "study1_expected_calls": 3696,
+  "study1_valid_calls": 3695,
+  "gpt_initial_success": 154,
+  "gpt_followup_success": 2309,
+  "claude_initial_success": 77,
+  "claude_followup_success": 1155,
+  "gpt_failed_final": 1,
+  "n_seed_scenarios": 77,
+  "n_clean_label_subset": 70,
+  "n_claude_filtered_records": 1232,
+  "expected_results_sha256": "fbc7f08c7e212cbb199faf752ee3c20e3518a34deef33b54f20aa331ecdec1d3",
+  "expected_report_sha256": "0d650570cabd230eeb00311733d2f80ac1751b30bb34a626d769a2dc3d3e9815"
+}

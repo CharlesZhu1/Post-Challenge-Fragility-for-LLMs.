@@ -1,0 +1,10 @@
+# Data scope and limitations
+
+1. **Study 1:** Contains analysis-essential minimized GPT/Claude operational states, frozen scenario inventory, follow-up assignment records, original code, and expected aggregate results. These are not complete provider API envelopes.
+2. **Study 2:** Contains frozen 3,780 assignment requests, their reduced final assignment states, 70-scenario selection, original analysis specifications and expected results; does not include all 3,781 original raw attempt envelopes.
+3. **Study 3 sequential:** Contains the 7,132-item canonical study collection, amended conversations and frozen specifications. 7,128 entries are successful according to the independently checked source-run statuses. Not every raw provider response envelope is included.
+4. **Study 3 controlled history:** Contains the original 1,260-assignment manifest, saved production attempts/events and expected results. Do not infer every provider transport payload is included.
+5. **Human annotations:** The 77 historical scenario inventory rows retain their original `not_human_certified` metadata. Verified, anonymized votes derived from three later reviewer files are included in `validation/`. Counts: 65 unanimous, 76 majority agreeing with gold, one three-way tie, Fleiss' κ 0.835760. Reviewer credentials and independence remain unverified from the supplied source; see `docs/BENCHMARK_VALIDATION.md`. Original raw reviewer CSVs remain private.
+6. **Reproduction scope:** `python reproduce_all.py` regenerates statistical results from recorded outcomes; it does not regenerate original model API calls. Results are compared with `expected/`.
+7. **Protocol and missingness:** Study 2 has five failures (2 GPT-4o-mini, 3 Claude); Study 3 sequential has four non-success final states. Verify manuscript alignment on missingness, protocol amendment, uncertainty estimates and the distinction between clean 70 versus full 77 before publication.
+8. **Paths:** Some immutable frozen provenance files and original analysis scripts retain `/home/charles/sibyl_v2` paths. They are not required for portable analysis but should be reviewed before public distribution.

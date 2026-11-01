@@ -1,0 +1,12 @@
+# Secrets and local cache — never commit private run credentials
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
+*.log
+*_PRIVATE*.zip
+.DS_Store
+.vscode/
+.idea/

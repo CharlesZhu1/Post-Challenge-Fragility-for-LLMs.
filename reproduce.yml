@@ -1,0 +1,19 @@
+name: Reproducibility verification
+on:
+  push:
+  pull_request:
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify release file hashes
+        run: python verify_manifest.py
+      - name: Verify benchmark annotations
+        run: python validation/verify_benchmark_validation.py
+      - name: Reproduce four statistical result sets
+        run: python reproduce_all.py

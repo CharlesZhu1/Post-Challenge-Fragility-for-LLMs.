@@ -1,0 +1,22 @@
+{
+  "scenarios": 77,
+  "raters_per_scenario": 3,
+  "unanimous": 65,
+  "with_majority": 76,
+  "majority_matches_gold": 76,
+  "no_majority": 1,
+  "clean70_count": 70,
+  "fleiss_kappa": 0.8357601956657758,
+  "observed_pairwise_agreement": 0.8917748917748919,
+  "expected_chance_agreement": 0.34105432806731506,
+  "per_option_vote_totals": {
+    "B": 113,
+    "A": 62,
+    "C": 31,
+    "D": 25
+  },
+  "annotation_provenance_limit": "annotator_1 labels match frozen benchmark gold in all 77 rows; independence and reviewer provenance require author confirmation",
+  "no_majority_seed_ids": [
+    "g4_123S_adverse_document_summarization_19"
+  ]
+}

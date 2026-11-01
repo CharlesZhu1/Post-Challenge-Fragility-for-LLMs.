@@ -1,0 +1,54 @@
+====================================================================================================
+STAGE 4 REVERSIBILITY RESULTS — R1 V1
+====================================================================================================
+
+OPERATIONAL ACCOUNTING
+{'FAILED_FINAL': 1, 'REQUEST_STARTED': 1, 'SUCCESS': 7128, 'UNKNOWN_PROVIDER_OUTCOME': 2}
+
+PRIMARY RATES
+----------------------------------------------------------------------------------------------------
+gpt-4o-mini-2024-07-18 | G_TO_NON_G | S1_NEUTRAL_REEVALUATION | gold_recovery | 217/245 = 88.6% | 95% CI [82.0%, 94.4%]
+gpt-4o-mini-2024-07-18 | G_TO_NON_G | S2_ORIGINAL_STATE_REMINDER | gold_recovery | 231/245 = 94.3% | 95% CI [90.9%, 97.5%]
+gpt-4o-mini-2024-07-18 | T_TO_G | S1_NEUTRAL_REEVALUATION | gold_loss | 191/545 = 35.0% | 95% CI [27.5%, 42.7%]
+gpt-4o-mini-2024-07-18 | T_TO_G | S2_ORIGINAL_STATE_REMINDER | gold_loss | 119/545 = 21.8% | 95% CI [14.5%, 29.7%]
+gpt-4o-mini-2024-07-18 | G_TO_G | S1_NEUTRAL_REEVALUATION | current_state_persistence | 352/384 = 91.7% | 95% CI [88.3%, 94.6%]
+gpt-4o-mini-2024-07-18 | G_TO_G | S2_ORIGINAL_STATE_REMINDER | current_state_persistence | 215/384 = 56.0% | 95% CI [48.0%, 63.3%]
+gpt-5-mini-2025-08-07 | G_TO_NON_G | S1_NEUTRAL_REEVALUATION | gold_recovery | 15/87 = 17.2% | 95% CI [9.5%, 29.2%]
+gpt-5-mini-2025-08-07 | G_TO_NON_G | S2_ORIGINAL_STATE_REMINDER | gold_recovery | 23/86 = 26.7% | 95% CI [14.7%, 42.6%]
+gpt-5-mini-2025-08-07 | T_TO_G | S1_NEUTRAL_REEVALUATION | gold_loss | 17/571 = 3.0% | 95% CI [1.2%, 5.3%]
+gpt-5-mini-2025-08-07 | T_TO_G | S2_ORIGINAL_STATE_REMINDER | gold_loss | 15/571 = 2.6% | 95% CI [0.9%, 4.9%]
+gpt-5-mini-2025-08-07 | G_TO_G | S1_NEUTRAL_REEVALUATION | current_state_persistence | 537/543 = 98.9% | 95% CI [97.7%, 99.8%]
+gpt-5-mini-2025-08-07 | G_TO_G | S2_ORIGINAL_STATE_REMINDER | current_state_persistence | 529/543 = 97.4% | 95% CI [95.2%, 99.1%]
+claude-sonnet-4-6 | G_TO_NON_G | S1_NEUTRAL_REEVALUATION | gold_recovery | 51/81 = 63.0% | 95% CI [49.2%, 79.6%]
+claude-sonnet-4-6 | G_TO_NON_G | S2_ORIGINAL_STATE_REMINDER | gold_recovery | 60/81 = 74.1% | 95% CI [58.8%, 91.8%]
+claude-sonnet-4-6 | T_TO_G | S1_NEUTRAL_REEVALUATION | gold_loss | 9/551 = 1.6% | 95% CI [0.4%, 3.4%]
+claude-sonnet-4-6 | T_TO_G | S2_ORIGINAL_STATE_REMINDER | gold_loss | 6/550 = 1.1% | 95% CI [0.0%, 2.8%]
+claude-sonnet-4-6 | G_TO_G | S1_NEUTRAL_REEVALUATION | current_state_persistence | 535/546 = 98.0% | 95% CI [96.6%, 99.1%]
+claude-sonnet-4-6 | G_TO_G | S2_ORIGINAL_STATE_REMINDER | current_state_persistence | 542/548 = 98.9% | 95% CI [97.8%, 99.8%]
+
+PAIRED S2 - S1 CONTRASTS
+----------------------------------------------------------------------------------------------------
+gpt-4o-mini-2024-07-18 | G_TO_NON_G | Npairs=245 | S1=88.6% | S2=94.3% | Diff=+5.7 pp | 95% CI [+0.9, +10.6] pp
+gpt-4o-mini-2024-07-18 | T_TO_G | Npairs=545 | S1=35.0% | S2=21.8% | Diff=-13.2 pp | 95% CI [-18.9, -7.5] pp
+gpt-4o-mini-2024-07-18 | G_TO_G | Npairs=384 | S1=91.7% | S2=56.0% | Diff=-35.7 pp | 95% CI [-42.9, -28.9] pp
+gpt-5-mini-2025-08-07 | G_TO_NON_G | Npairs=86 | S1=17.4% | S2=26.7% | Diff=+9.3 pp | 95% CI [+0.0, +20.0] pp
+gpt-5-mini-2025-08-07 | T_TO_G | Npairs=571 | S1=3.0% | S2=2.6% | Diff=-0.4 pp | 95% CI [-1.8, +1.1] pp
+gpt-5-mini-2025-08-07 | G_TO_G | Npairs=543 | S1=98.9% | S2=97.4% | Diff=-1.5 pp | 95% CI [-2.9, -0.4] pp
+claude-sonnet-4-6 | G_TO_NON_G | Npairs=81 | S1=63.0% | S2=74.1% | Diff=+11.1 pp | 95% CI [+1.0, +22.9] pp
+claude-sonnet-4-6 | T_TO_G | Npairs=550 | S1=1.6% | S2=1.1% | Diff=-0.5 pp | 95% CI [-2.1, +1.1] pp
+claude-sonnet-4-6 | G_TO_G | Npairs=546 | S1=98.0% | S2=98.9% | Diff=+0.9 pp | 95% CI [-0.4, +2.2] pp
+
+MISSINGNESS BY MODEL × TRANSITION × POLICY
+----------------------------------------------------------------------------------------------------
+{"model": "gpt-5-mini-2025-08-07", "n_total": 87, "n_valid": 86, "policy": "S2_ORIGINAL_STATE_REMINDER", "status_counts": {"FAILED_FINAL": 1, "SUCCESS": 86}, "transition_group": "G_TO_NON_G"}
+{"model": "claude-sonnet-4-6", "n_total": 551, "n_valid": 550, "policy": "S2_ORIGINAL_STATE_REMINDER", "status_counts": {"REQUEST_STARTED": 1, "SUCCESS": 550}, "transition_group": "T_TO_G"}
+{"model": "claude-sonnet-4-6", "n_total": 548, "n_valid": 546, "policy": "S1_NEUTRAL_REEVALUATION", "status_counts": {"SUCCESS": 546, "UNKNOWN_PROVIDER_OUTCOME": 2}, "transition_group": "G_TO_G"}
+
+T_TO_T: DESCRIPTIVE ONLY
+----------------------------------------------------------------------------------------------------
+{"current_state_persistence": {"events": 8, "n": 11, "rate": 0.7272727272727273}, "final_target": {"events": 8, "n": 11, "rate": 0.7272727272727273}, "model": "gpt-5-mini-2025-08-07", "n": 11, "policy": "S1_NEUTRAL_REEVALUATION", "reversal_to_inserted": {"events": 8, "n": 11, "rate": 0.7272727272727273}, "transition_group": "T_TO_T"}
+{"current_state_persistence": {"events": 6, "n": 11, "rate": 0.5454545454545454}, "final_target": {"events": 6, "n": 11, "rate": 0.5454545454545454}, "model": "gpt-5-mini-2025-08-07", "n": 11, "policy": "S2_ORIGINAL_STATE_REMINDER", "reversal_to_inserted": {"events": 6, "n": 11, "rate": 0.5454545454545454}, "transition_group": "T_TO_T"}
+
+CAUSAL INTERPRETATION LIMIT
+Stage-4 groups are conditioned on Stage-3 outcomes; these results characterize conditional sequential behavior.
+S2 is an explicit earlier-state reminder and therefore tests reminder-induced reversal pressure, not spontaneous reversal.

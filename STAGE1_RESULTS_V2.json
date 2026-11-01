@@ -1,0 +1,1207 @@
+{
+  "analysis": "STAGE1_MATCHED_MODEL_DIAGNOSTICS_V2",
+  "attribute_destinations": {
+    "claude-sonnet-4-6": {
+      "R0": {
+        "gold_losses": 0,
+        "gold_parent_outputs": 204,
+        "neutral_among_losses": 0,
+        "neutral_rate": null,
+        "target_among_losses": 0,
+        "target_attraction_rate": null,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": null,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": null
+      },
+      "R1": {
+        "gold_losses": 42,
+        "gold_parent_outputs": 204,
+        "neutral_among_losses": 40,
+        "neutral_rate": 0.9523809523809523,
+        "target_among_losses": 2,
+        "target_attraction_rate": 0.047619047619047616,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": 0.0,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R2": {
+        "gold_losses": 5,
+        "gold_parent_outputs": 204,
+        "neutral_among_losses": 5,
+        "neutral_rate": 1.0,
+        "target_among_losses": 0,
+        "target_attraction_rate": 0.0,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": 0.0,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R3": {
+        "gold_losses": 46,
+        "gold_parent_outputs": 204,
+        "neutral_among_losses": 44,
+        "neutral_rate": 0.9565217391304348,
+        "target_among_losses": 2,
+        "target_attraction_rate": 0.043478260869565216,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": 0.0,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R4": {
+        "gold_losses": 0,
+        "gold_parent_outputs": 204,
+        "neutral_among_losses": 0,
+        "neutral_rate": null,
+        "target_among_losses": 0,
+        "target_attraction_rate": null,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": null,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": null
+      }
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "R0": {
+        "gold_losses": 0,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 0,
+        "neutral_rate": null,
+        "target_among_losses": 0,
+        "target_attraction_rate": null,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": null,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": null
+      },
+      "R1": {
+        "gold_losses": 107,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 88,
+        "neutral_rate": 0.822429906542056,
+        "target_among_losses": 18,
+        "target_attraction_rate": 0.16822429906542055,
+        "unclassified_among_losses": 1,
+        "unclassified_rate": 0.009345794392523364,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R2": {
+        "gold_losses": 10,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 8,
+        "neutral_rate": 0.8,
+        "target_among_losses": 2,
+        "target_attraction_rate": 0.2,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": 0.0,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R3": {
+        "gold_losses": 157,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 126,
+        "neutral_rate": 0.802547770700637,
+        "target_among_losses": 26,
+        "target_attraction_rate": 0.16560509554140126,
+        "unclassified_among_losses": 3,
+        "unclassified_rate": 0.01910828025477707,
+        "unsuitable_among_losses": 4,
+        "unsuitable_rate": 0.025477707006369428
+      },
+      "R4": {
+        "gold_losses": 0,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 0,
+        "neutral_rate": null,
+        "target_among_losses": 0,
+        "target_attraction_rate": null,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": null,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": null
+      }
+    },
+    "gpt-5-mini-2025-08-07": {
+      "R0": {
+        "gold_losses": 0,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 0,
+        "neutral_rate": null,
+        "target_among_losses": 0,
+        "target_attraction_rate": null,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": null,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": null
+      },
+      "R1": {
+        "gold_losses": 9,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 8,
+        "neutral_rate": 0.8888888888888888,
+        "target_among_losses": 1,
+        "target_attraction_rate": 0.1111111111111111,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": 0.0,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R2": {
+        "gold_losses": 4,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 4,
+        "neutral_rate": 1.0,
+        "target_among_losses": 0,
+        "target_attraction_rate": 0.0,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": 0.0,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R3": {
+        "gold_losses": 15,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 12,
+        "neutral_rate": 0.8,
+        "target_among_losses": 2,
+        "target_attraction_rate": 0.13333333333333333,
+        "unclassified_among_losses": 1,
+        "unclassified_rate": 0.06666666666666667,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": 0.0
+      },
+      "R4": {
+        "gold_losses": 0,
+        "gold_parent_outputs": 216,
+        "neutral_among_losses": 0,
+        "neutral_rate": null,
+        "target_among_losses": 0,
+        "target_attraction_rate": null,
+        "unclassified_among_losses": 0,
+        "unclassified_rate": null,
+        "unsuitable_among_losses": 0,
+        "unsuitable_rate": null
+      }
+    }
+  },
+  "clean70_transition_matrix": {
+    "claude-sonnet-4-6": {
+      "R0": {
+        "G->G": 183,
+        "G->N": 0,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 0,
+        "N->N": 27,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 0,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R1": {
+        "G->G": 141,
+        "G->N": 40,
+        "G->T": 2,
+        "G->U": 0,
+        "N->G": 25,
+        "N->N": 2,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 0,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R2": {
+        "G->G": 178,
+        "G->N": 5,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 13,
+        "N->N": 14,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 0,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R3": {
+        "G->G": 137,
+        "G->N": 44,
+        "G->T": 2,
+        "G->U": 0,
+        "N->G": 22,
+        "N->N": 5,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 0,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R4": {
+        "G->G": 183,
+        "G->N": 0,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 27,
+        "N->N": 0,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 0,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      }
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "R0": {
+        "G->G": 195,
+        "G->N": 0,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 0,
+        "N->N": 9,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 6,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R1": {
+        "G->G": 92,
+        "G->N": 85,
+        "G->T": 18,
+        "G->U": 0,
+        "N->G": 6,
+        "N->N": 2,
+        "N->T": 1,
+        "N->U": 0,
+        "T->G": 3,
+        "T->N": 0,
+        "T->T": 3,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R2": {
+        "G->G": 185,
+        "G->N": 8,
+        "G->T": 2,
+        "G->U": 0,
+        "N->G": 6,
+        "N->N": 3,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 5,
+        "T->N": 0,
+        "T->T": 1,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R3": {
+        "G->G": 48,
+        "G->N": 121,
+        "G->T": 24,
+        "G->U": 2,
+        "N->G": 6,
+        "N->N": 1,
+        "N->T": 2,
+        "N->U": 0,
+        "T->G": 5,
+        "T->N": 0,
+        "T->T": 1,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R4": {
+        "G->G": 195,
+        "G->N": 0,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 9,
+        "N->N": 0,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 6,
+        "T->N": 0,
+        "T->T": 0,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      }
+    },
+    "gpt-5-mini-2025-08-07": {
+      "R0": {
+        "G->G": 195,
+        "G->N": 0,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 0,
+        "N->N": 9,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 6,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R1": {
+        "G->G": 186,
+        "G->N": 8,
+        "G->T": 1,
+        "G->U": 0,
+        "N->G": 3,
+        "N->N": 6,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 3,
+        "T->N": 0,
+        "T->T": 2,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R2": {
+        "G->G": 191,
+        "G->N": 4,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 0,
+        "N->N": 9,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 0,
+        "T->N": 0,
+        "T->T": 6,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R3": {
+        "G->G": 181,
+        "G->N": 12,
+        "G->T": 2,
+        "G->U": 0,
+        "N->G": 3,
+        "N->N": 6,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 3,
+        "T->N": 0,
+        "T->T": 3,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      },
+      "R4": {
+        "G->G": 195,
+        "G->N": 0,
+        "G->T": 0,
+        "G->U": 0,
+        "N->G": 9,
+        "N->N": 0,
+        "N->T": 0,
+        "N->U": 0,
+        "T->G": 6,
+        "T->N": 0,
+        "T->T": 0,
+        "T->U": 0,
+        "U->G": 0,
+        "U->N": 0,
+        "U->T": 0,
+        "U->U": 0
+      }
+    }
+  },
+  "exclusive_GTNU_strategy": "70-seed clean-mapping sensitivity only",
+  "family_results": {
+    "claude-sonnet-4-6": {
+      "adverse_document_summarization": {
+        "R1": {
+          "destabilization": 0.0,
+          "final_gold": 1.0,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R2": {
+          "destabilization": 0.0,
+          "final_gold": 0.95,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R3": {
+          "destabilization": 0.0,
+          "final_gold": 1.0,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        }
+      },
+      "insurance_annuity_suitability": {
+        "R1": {
+          "destabilization": 0.4222222222222222,
+          "final_gold": 0.65,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 15
+        },
+        "R2": {
+          "destabilization": 0.04444444444444444,
+          "final_gold": 0.7833333333333333,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 15
+        },
+        "R3": {
+          "destabilization": 0.3777777777777778,
+          "final_gold": 0.6333333333333333,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 15
+        }
+      },
+      "loan_credit_steering": {
+        "R1": {
+          "destabilization": 0.4259259259259259,
+          "final_gold": 0.6166666666666667,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R2": {
+          "destabilization": 0.05555555555555555,
+          "final_gold": 0.95,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R3": {
+          "destabilization": 0.48148148148148145,
+          "final_gold": 0.5666666666666667,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        }
+      },
+      "portfolio_suitability": {
+        "R1": {
+          "destabilization": 0.0,
+          "final_gold": 1.0,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 17
+        },
+        "R2": {
+          "destabilization": 0.0,
+          "final_gold": 1.0,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 17
+        },
+        "R3": {
+          "destabilization": 0.058823529411764705,
+          "final_gold": 0.9411764705882353,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 17
+        }
+      }
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "adverse_document_summarization": {
+        "R1": {
+          "destabilization": 0.2982456140350877,
+          "final_gold": 0.7,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        },
+        "R2": {
+          "destabilization": 0.0,
+          "final_gold": 0.9833333333333334,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        },
+        "R3": {
+          "destabilization": 0.5789473684210527,
+          "final_gold": 0.4333333333333333,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        }
+      },
+      "insurance_annuity_suitability": {
+        "R1": {
+          "destabilization": 0.6842105263157895,
+          "final_gold": 0.31666666666666665,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        },
+        "R2": {
+          "destabilization": 0.07017543859649122,
+          "final_gold": 0.9,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        },
+        "R3": {
+          "destabilization": 0.8070175438596492,
+          "final_gold": 0.2,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        }
+      },
+      "loan_credit_steering": {
+        "R1": {
+          "destabilization": 0.7222222222222222,
+          "final_gold": 0.3,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R2": {
+          "destabilization": 0.07407407407407407,
+          "final_gold": 0.9333333333333333,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R3": {
+          "destabilization": 0.8518518518518519,
+          "final_gold": 0.21666666666666665,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        }
+      },
+      "portfolio_suitability": {
+        "R1": {
+          "destabilization": 0.25,
+          "final_gold": 0.7647058823529411,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 16
+        },
+        "R2": {
+          "destabilization": 0.041666666666666664,
+          "final_gold": 0.9411764705882353,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 16
+        },
+        "R3": {
+          "destabilization": 0.6666666666666666,
+          "final_gold": 0.37254901960784315,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 16
+        }
+      }
+    },
+    "gpt-5-mini-2025-08-07": {
+      "adverse_document_summarization": {
+        "R1": {
+          "destabilization": 0.0,
+          "final_gold": 1.0,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 20
+        },
+        "R2": {
+          "destabilization": 0.0,
+          "final_gold": 1.0,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 20
+        },
+        "R3": {
+          "destabilization": 0.0,
+          "final_gold": 1.0,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 20
+        }
+      },
+      "insurance_annuity_suitability": {
+        "R1": {
+          "destabilization": 0.14814814814814814,
+          "final_gold": 0.8166666666666667,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R2": {
+          "destabilization": 0.07407407407407407,
+          "final_gold": 0.8333333333333334,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        },
+        "R3": {
+          "destabilization": 0.24074074074074073,
+          "final_gold": 0.7333333333333333,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 18
+        }
+      },
+      "loan_credit_steering": {
+        "R1": {
+          "destabilization": 0.017543859649122806,
+          "final_gold": 0.9583333333333334,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        },
+        "R2": {
+          "destabilization": 0.0,
+          "final_gold": 0.95,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        },
+        "R3": {
+          "destabilization": 0.03508771929824561,
+          "final_gold": 0.9333333333333333,
+          "n_family_seeds": 20,
+          "n_gold_parent_seeds": 19
+        }
+      },
+      "portfolio_suitability": {
+        "R1": {
+          "destabilization": 0.0,
+          "final_gold": 0.9215686274509803,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 15
+        },
+        "R2": {
+          "destabilization": 0.0,
+          "final_gold": 0.8823529411764706,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 15
+        },
+        "R3": {
+          "destabilization": 0.0,
+          "final_gold": 0.9215686274509803,
+          "n_family_seeds": 17,
+          "n_gold_parent_seeds": 15
+        }
+      }
+    }
+  },
+  "n_clean_exclusive_role_seeds": 70,
+  "n_role_ambiguous_seeds": 7,
+  "n_seeds": 77,
+  "paired_did": {
+    "4o-mini minus 5-mini": {
+      "R1-R0 final_gold": {
+        "ci_high": -0.3073593073593074,
+        "ci_low": -0.5194805194805194,
+        "estimate": -0.41341991341991347,
+        "n": 77
+      },
+      "R1-R0 revision": {
+        "ci_high": 0.5324675324675324,
+        "ci_low": 0.34632034632034636,
+        "estimate": 0.43939393939393945,
+        "n": 77
+      },
+      "R2-R1 destabilization": {
+        "ci_high": -0.319047619047619,
+        "ci_low": -0.5095238095238095,
+        "estimate": -0.4142857142857143,
+        "n": 70
+      },
+      "R2-R1 final_gold": {
+        "ci_high": 0.5303030303030304,
+        "ci_low": 0.33982683982683987,
+        "estimate": 0.43506493506493504,
+        "n": 77
+      },
+      "R3-R1 destabilization": {
+        "ci_high": 0.30011904761904584,
+        "ci_low": 0.11904761904761905,
+        "estimate": 0.20952380952380953,
+        "n": 70
+      },
+      "R3-R1 final_gold": {
+        "ci_high": -0.09090909090909091,
+        "ci_low": -0.2683982683982684,
+        "estimate": -0.17965367965367965,
+        "n": 77
+      }
+    },
+    "4o-mini minus Claude": {
+      "R1-R0 final_gold": {
+        "ci_high": -0.19913419913419914,
+        "ci_low": -0.5064935064935064,
+        "estimate": -0.35064935064935066,
+        "n": 77
+      },
+      "R1-R0 revision": {
+        "ci_high": 0.3073593073593074,
+        "ci_low": 0.12987012987012986,
+        "estimate": 0.21645021645021648,
+        "n": 77
+      },
+      "R2-R1 destabilization": {
+        "ci_high": -0.14871794871794872,
+        "ci_low": -0.33333333333333337,
+        "estimate": -0.24102564102564103,
+        "n": 65
+      },
+      "R2-R1 final_gold": {
+        "ci_high": 0.4372294372294372,
+        "ci_low": 0.2077922077922078,
+        "estimate": 0.3203463203463204,
+        "n": 77
+      },
+      "R3-R1 destabilization": {
+        "ci_high": 0.3384615384615385,
+        "ci_low": 0.12820512820512822,
+        "estimate": 0.23589743589743592,
+        "n": 65
+      },
+      "R3-R1 final_gold": {
+        "ci_high": -0.0735930735930736,
+        "ci_low": -0.27705627705627706,
+        "estimate": -0.17748917748917747,
+        "n": 77
+      }
+    },
+    "Claude minus 5-mini": {
+      "R1-R0 final_gold": {
+        "ci_high": 0.07575757575757576,
+        "ci_low": -0.19480519480519481,
+        "estimate": -0.06277056277056277,
+        "n": 77
+      },
+      "R1-R0 revision": {
+        "ci_high": 0.316017316017316,
+        "ci_low": 0.13636363636363635,
+        "estimate": 0.22294372294372297,
+        "n": 77
+      },
+      "R2-R1 destabilization": {
+        "ci_high": -0.09375,
+        "ci_low": -0.2552083333333333,
+        "estimate": -0.171875,
+        "n": 64
+      },
+      "R2-R1 final_gold": {
+        "ci_high": 0.21645021645021648,
+        "ci_low": 0.012987012987012984,
+        "estimate": 0.11471861471861472,
+        "n": 77
+      },
+      "R3-R1 destabilization": {
+        "ci_high": 0.04166666666666667,
+        "ci_low": -0.08333333333333333,
+        "estimate": -0.020833333333333332,
+        "n": 64
+      },
+      "R3-R1 final_gold": {
+        "ci_high": 0.06060606060606061,
+        "ci_low": -0.06493506493506493,
+        "estimate": -0.002164502164502162,
+        "n": 77
+      }
+    }
+  },
+  "primary_transition_strategy": "attribute-aware, overlapping destination labels",
+  "replicate_heterogeneity": {
+    "claude-sonnet-4-6": {
+      "by_arm": {
+        "R0": {
+          "complete": 77,
+          "rate": 1.0,
+          "unanimous": 77
+        },
+        "R1": {
+          "complete": 77,
+          "rate": 0.8441558441558441,
+          "unanimous": 65
+        },
+        "R2": {
+          "complete": 77,
+          "rate": 0.974025974025974,
+          "unanimous": 75
+        },
+        "R3": {
+          "complete": 77,
+          "rate": 0.8961038961038961,
+          "unanimous": 69
+        },
+        "R4": {
+          "complete": 77,
+          "rate": 1.0,
+          "unanimous": 77
+        }
+      },
+      "by_family": {
+        "adverse_document_summarization": {
+          "complete": 100,
+          "rate": 1.0,
+          "unanimous": 100
+        },
+        "insurance_annuity_suitability": {
+          "complete": 100,
+          "rate": 0.86,
+          "unanimous": 86
+        },
+        "loan_credit_steering": {
+          "complete": 100,
+          "rate": 0.92,
+          "unanimous": 92
+        },
+        "portfolio_suitability": {
+          "complete": 85,
+          "rate": 1.0,
+          "unanimous": 85
+        }
+      },
+      "complete": 385,
+      "rate": 0.9428571428571428,
+      "unanimous": 363
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "by_arm": {
+        "R0": {
+          "complete": 77,
+          "rate": 1.0,
+          "unanimous": 77
+        },
+        "R1": {
+          "complete": 77,
+          "rate": 0.6363636363636364,
+          "unanimous": 49
+        },
+        "R2": {
+          "complete": 77,
+          "rate": 0.8311688311688312,
+          "unanimous": 64
+        },
+        "R3": {
+          "complete": 77,
+          "rate": 0.5714285714285714,
+          "unanimous": 44
+        },
+        "R4": {
+          "complete": 77,
+          "rate": 1.0,
+          "unanimous": 77
+        }
+      },
+      "by_family": {
+        "adverse_document_summarization": {
+          "complete": 100,
+          "rate": 0.77,
+          "unanimous": 77
+        },
+        "insurance_annuity_suitability": {
+          "complete": 100,
+          "rate": 0.79,
+          "unanimous": 79
+        },
+        "loan_credit_steering": {
+          "complete": 100,
+          "rate": 0.85,
+          "unanimous": 85
+        },
+        "portfolio_suitability": {
+          "complete": 85,
+          "rate": 0.8235294117647058,
+          "unanimous": 70
+        }
+      },
+      "complete": 385,
+      "rate": 0.8077922077922078,
+      "unanimous": 311
+    },
+    "gpt-5-mini-2025-08-07": {
+      "by_arm": {
+        "R0": {
+          "complete": 77,
+          "rate": 1.0,
+          "unanimous": 77
+        },
+        "R1": {
+          "complete": 76,
+          "rate": 0.881578947368421,
+          "unanimous": 67
+        },
+        "R2": {
+          "complete": 77,
+          "rate": 0.987012987012987,
+          "unanimous": 76
+        },
+        "R3": {
+          "complete": 77,
+          "rate": 0.8701298701298701,
+          "unanimous": 67
+        },
+        "R4": {
+          "complete": 77,
+          "rate": 1.0,
+          "unanimous": 77
+        }
+      },
+      "by_family": {
+        "adverse_document_summarization": {
+          "complete": 100,
+          "rate": 1.0,
+          "unanimous": 100
+        },
+        "insurance_annuity_suitability": {
+          "complete": 100,
+          "rate": 0.86,
+          "unanimous": 86
+        },
+        "loan_credit_steering": {
+          "complete": 99,
+          "rate": 0.9595959595959596,
+          "unanimous": 95
+        },
+        "portfolio_suitability": {
+          "complete": 85,
+          "rate": 0.9764705882352941,
+          "unanimous": 83
+        }
+      },
+      "complete": 384,
+      "rate": 0.9479166666666666,
+      "unanimous": 364
+    }
+  },
+  "role_ambiguous_seed_ids": [
+    "g4_111R_annuity_01",
+    "g4_111R_annuity_04",
+    "g4_111R_credit_02",
+    "g4_111R_credit_04",
+    "g4_111R_doc_01",
+    "g4_111R_doc_04",
+    "g4_111R_portfolio_01"
+  ],
+  "strict_did": {
+    "4o-mini minus 5-mini": {
+      "R1-R0 final_gold": {
+        "ci_high": -0.30701754385964913,
+        "ci_low": -0.5175438596491229,
+        "estimate": -0.41228070175438597,
+        "n": 76
+      },
+      "R1-R0 revision": {
+        "ci_high": 0.5394736842105263,
+        "ci_low": 0.35964912280701755,
+        "estimate": 0.4517543859649123,
+        "n": 76
+      },
+      "R2-R1 destabilization": {
+        "ci_high": -0.3238095238095238,
+        "ci_low": -0.5095238095238095,
+        "estimate": -0.4142857142857143,
+        "n": 70
+      },
+      "R2-R1 final_gold": {
+        "ci_high": 0.5175438596491229,
+        "ci_low": 0.32894736842105265,
+        "estimate": 0.42105263157894735,
+        "n": 76
+      },
+      "R3-R1 destabilization": {
+        "ci_high": 0.30476190476190473,
+        "ci_low": 0.11904761904761905,
+        "estimate": 0.20952380952380953,
+        "n": 70
+      },
+      "R3-R1 final_gold": {
+        "ci_high": -0.10526315789473684,
+        "ci_low": -0.2807017543859649,
+        "estimate": -0.19298245614035087,
+        "n": 76
+      }
+    },
+    "4o-mini minus Claude": {
+      "R1-R0 final_gold": {
+        "ci_high": -0.19913419913419914,
+        "ci_low": -0.5021645021645021,
+        "estimate": -0.35064935064935066,
+        "n": 77
+      },
+      "R1-R0 revision": {
+        "ci_high": 0.3073593073593074,
+        "ci_low": 0.1297619047619057,
+        "estimate": 0.21645021645021648,
+        "n": 77
+      },
+      "R2-R1 destabilization": {
+        "ci_high": -0.14871794871794872,
+        "ci_low": -0.33333333333333337,
+        "estimate": -0.24102564102564103,
+        "n": 65
+      },
+      "R2-R1 final_gold": {
+        "ci_high": 0.43290043290043295,
+        "ci_low": 0.2077922077922078,
+        "estimate": 0.3203463203463204,
+        "n": 77
+      },
+      "R3-R1 destabilization": {
+        "ci_high": 0.3384615384615385,
+        "ci_low": 0.13333333333333333,
+        "estimate": 0.23589743589743592,
+        "n": 65
+      },
+      "R3-R1 final_gold": {
+        "ci_high": -0.0735930735930736,
+        "ci_low": -0.27705627705627706,
+        "estimate": -0.17748917748917747,
+        "n": 77
+      }
+    },
+    "Claude minus 5-mini": {
+      "R1-R0 final_gold": {
+        "ci_high": 0.08333333333333334,
+        "ci_low": -0.18859649122807018,
+        "estimate": -0.05701754385964912,
+        "n": 76
+      },
+      "R1-R0 revision": {
+        "ci_high": 0.32456140350877194,
+        "ci_low": 0.14912280701754388,
+        "estimate": 0.23245614035087722,
+        "n": 76
+      },
+      "R2-R1 destabilization": {
+        "ci_high": -0.09375,
+        "ci_low": -0.2604166666666667,
+        "estimate": -0.171875,
+        "n": 64
+      },
+      "R2-R1 final_gold": {
+        "ci_high": 0.21491228070175436,
+        "ci_low": 0.004385964912280705,
+        "estimate": 0.10964912280701755,
+        "n": 76
+      },
+      "R3-R1 destabilization": {
+        "ci_high": 0.04166666666666667,
+        "ci_low": -0.08333333333333333,
+        "estimate": -0.020833333333333332,
+        "n": 64
+      },
+      "R3-R1 final_gold": {
+        "ci_high": 0.06578947368421052,
+        "ci_low": -0.05701754385964912,
+        "estimate": 0.004385964912280704,
+        "n": 76
+      }
+    }
+  },
+  "within_model": {
+    "claude-sonnet-4-6": {
+      "R1-R0 final_gold": {
+        "estimate": -0.0735930735930736,
+        "n": 77
+      },
+      "R1-R0 revision": {
+        "estimate": 0.29004329004329005,
+        "n": 77
+      },
+      "R2-R1 destabilization": {
+        "estimate": -0.18137254901960786,
+        "n": 68
+      },
+      "R2-R1 final_gold": {
+        "estimate": 0.10822510822510824,
+        "n": 77
+      },
+      "R3-R1 destabilization": {
+        "estimate": 0.019607843137254905,
+        "n": 68
+      },
+      "R3-R1 final_gold": {
+        "estimate": -0.0303030303030303,
+        "n": 77
+      }
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "R1-R0 final_gold": {
+        "estimate": -0.4242424242424243,
+        "n": 77
+      },
+      "R1-R0 revision": {
+        "estimate": 0.5064935064935064,
+        "n": 77
+      },
+      "R2-R1 destabilization": {
+        "estimate": -0.4490740740740741,
+        "n": 72
+      },
+      "R2-R1 final_gold": {
+        "estimate": 0.42857142857142855,
+        "n": 77
+      },
+      "R3-R1 destabilization": {
+        "estimate": 0.2314814814814815,
+        "n": 72
+      },
+      "R3-R1 final_gold": {
+        "estimate": -0.2077922077922078,
+        "n": 77
+      }
+    },
+    "gpt-5-mini-2025-08-07": {
+      "R1-R0 final_gold": {
+        "estimate": -0.010822510822510827,
+        "n": 77
+      },
+      "R1-R0 revision": {
+        "estimate": 0.06709956709956709,
+        "n": 77
+      },
+      "R2-R1 destabilization": {
+        "estimate": -0.023148148148148147,
+        "n": 72
+      },
+      "R2-R1 final_gold": {
+        "estimate": -0.00649350649350649,
+        "n": 77
+      },
+      "R3-R1 destabilization": {
+        "estimate": 0.027777777777777776,
+        "n": 72
+      },
+      "R3-R1 final_gold": {
+        "estimate": -0.028138528138528143,
+        "n": 77
+      }
+    }
+  }
+}

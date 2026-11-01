@@ -1,0 +1,620 @@
+{
+  "assignments": {
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_annuity_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_annuity_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_annuity_03": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_annuity_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_annuity_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_credit_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_credit_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_credit_03": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_credit_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_credit_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_doc_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_doc_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_doc_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_doc_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_portfolio_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_portfolio_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_portfolio_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_111R_portfolio_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_112T_doc_03_replacement": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_14": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_adverse_document_summarization_20": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_14": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_insurance_annuity_suitability_20": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_14": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_loan_credit_steering_20": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-4o-mini-2024-07-18::g4_123S_portfolio_suitability_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_annuity_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_annuity_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_annuity_03": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_annuity_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_annuity_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_credit_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_credit_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_credit_03": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_credit_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_credit_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_doc_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_doc_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_doc_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_doc_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_portfolio_01": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_portfolio_02": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_portfolio_04": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_111R_portfolio_05": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_112T_doc_03_replacement": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_14": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_adverse_document_summarization_20": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_14": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_insurance_annuity_suitability_20": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_14": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_loan_credit_steering_20": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_06": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_07": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_08": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_09": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_10": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_11": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_12": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_13": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_15": {
+      "status": "SUCCESS",
+      "parsed_choice": "B"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_16": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_17": {
+      "status": "SUCCESS",
+      "parsed_choice": "D"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_18": {
+      "status": "SUCCESS",
+      "parsed_choice": "C"
+    },
+    "INIT::gpt-5-mini-2025-08-07::g4_123S_portfolio_suitability_19": {
+      "status": "SUCCESS",
+      "parsed_choice": "A"
+    }
+  }
+}

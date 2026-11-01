@@ -1,0 +1,65 @@
+{
+  "analysis_blinding_statement": "This amendment is frozen before Stage-4 parsed-choice distributions or scientific reversibility outcomes are aggregated.",
+  "analysis_population": {
+    "T_TO_T": "Descriptive only because of very small sample size.",
+    "operational_missing": "FAILED_FINAL, UNKNOWN_PROVIDER_OUTCOME, and preserved REQUEST_STARTED assignments are treated as missing. No imputation or regeneration.",
+    "primary": "All Stage-4 assignments with SUCCESS status and valid parsed final choice."
+  },
+  "bootstrap": {
+    "confidence_level": 0.95,
+    "draws": 10000,
+    "interval": "percentile",
+    "paired_policy_contrasts": "Resample seeds and preserve exact-source S1/S2 pairing within each bootstrap draw.",
+    "seed": 2026081404,
+    "unit": "seed"
+  },
+  "canonical_collection_sha256": "0b5665a3b5153181e621c6dff1a7c05723f8248a3a2578dfeaaf22b1b43e4a43",
+  "causal_interpretation_limits": [
+    "Stage-4 transition groups are post-treatment groups defined by Stage-3 outcomes.",
+    "Comparisons within these groups characterize conditional sequential behavior and should not be interpreted as unconditional causal effects of entering the group.",
+    "S2 explicitly reminds the model of the earlier inserted parent recommendation and therefore tests reminder-induced reversal pressure."
+  ],
+  "collection_freeze_sha256": "5f09b57084155ebd9964adae81fc805725201d1540cea58205fe603cecc9a448",
+  "created_utc": "2026-08-15T01:25:07.639425+00:00",
+  "descriptive_transition_groups": [
+    "T_TO_T"
+  ],
+  "missingness_reporting": {
+    "no_imputation": true,
+    "no_regeneration": true,
+    "report_by": [
+      "model",
+      "transition_group",
+      "policy"
+    ]
+  },
+  "pairing": {
+    "S2_minus_S1": "Exact-source paired complete-case comparison. A source contributes only when both S1 and S2 Stage-4 outcomes are valid.",
+    "pairing_key": "Exact Stage-3 source assignment / source-response identity before the Stage-4 policy split."
+  },
+  "policy_comparison": {
+    "contrast": "S2_ORIGINAL_STATE_REMINDER minus S1_NEUTRAL_REEVALUATION",
+    "interpretation": "S2 tests response to an explicit reminder of the earlier inserted recommendation. It must not be described as spontaneous reversal."
+  },
+  "primary_outcomes": {
+    "G_TO_G": "current_state_persistence",
+    "G_TO_NON_G": "gold_recovery_after_G_TO_NON_G",
+    "T_TO_G": "gold_loss_after_T_TO_G"
+  },
+  "primary_transition_groups": [
+    "G_TO_NON_G",
+    "T_TO_G",
+    "G_TO_G"
+  ],
+  "reason_for_amendment": "Stage-4 execution was prospectively reduced from three Stage-4 replicates per source-policy to one Stage-4 replicate per source-policy before Stage-4 scientific outcome analysis. The analysis plan is updated to match the executed single-replicate design.",
+  "scientific_outcomes_inspected_before_freeze": false,
+  "secondary_outcomes": [
+    "current_state_persistence",
+    "reversal_to_original_inserted_state",
+    "final_gold",
+    "final_target",
+    "two_step_transition_pattern"
+  ],
+  "timing_status": "POST_COLLECTION_START_PRE_OUTCOME_ANALYSIS",
+  "version": "STAGE4_ANALYSIS_AMENDMENT_R1_V1"
+}

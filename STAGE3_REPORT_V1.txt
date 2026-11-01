@@ -1,0 +1,86 @@
+========================================================================================
+STAGE 3 — CONTROLLED PARENT-STATE INTERVENTION
+========================================================================================
+
+Primary analysis: >=2 valid replicates per required cell.
+Strict sensitivity: all 3 valid replicates per required cell.
+
+Bootstrap draws: 10000
+Bootstrap seed: 2026081303
+
+========================================================================================
+A. PARENT-STATE EFFECT WITHIN ARM
+    final_gold(G) - final_gold(T)
+========================================================================================
+
+4o-mini
+  R1:   -32.4 pp 95% CI [-41.0, -24.3] pp N=70
+  R2:    +7.1 pp 95% CI [+1.4, +12.9] pp N=70
+  R3:   -51.9 pp 95% CI [-61.9, -41.9] pp N=70
+
+5-mini
+  R1:    -3.8 pp 95% CI [-8.1, +0.5] pp N=70
+  R2:    +1.4 pp 95% CI [-2.4, +5.2] pp N=70
+  R3:   -11.0 pp 95% CI [-16.2, -6.2] pp N=70
+
+Claude
+  R1:    -2.4 pp 95% CI [-7.6, +2.4] pp N=70
+  R2:    +6.2 pp 95% CI [+2.4, +11.4] pp N=70
+  R3:    -5.7 pp 95% CI [-11.4, -0.5] pp N=70
+
+========================================================================================
+B. POLICY × PARENT-STATE INTERACTION
+========================================================================================
+
+4o-mini
+  R2-R1:   +39.5 pp 95% CI [+31.0, +48.6] pp N=70
+  R3-R1:   -19.5 pp 95% CI [-28.1, -11.0] pp N=70
+
+5-mini
+  R2-R1:    +5.2 pp 95% CI [+0.0, +11.4] pp N=70
+  R3-R1:    -7.1 pp 95% CI [-12.4, -1.9] pp N=70
+
+Claude
+  R2-R1:    +8.6 pp 95% CI [+2.4, +15.7] pp N=70
+  R3-R1:    -3.3 pp 95% CI [-9.5, +2.9] pp N=70
+
+========================================================================================
+C. MODEL × POLICY × PARENT-STATE
+========================================================================================
+
+4o-mini minus 5-mini
+  R2-R1:   +34.3 pp 95% CI [+24.3, +44.3] pp N=70
+  R3-R1:   -12.4 pp 95% CI [-22.9, -1.9] pp N=70
+
+4o-mini minus Claude
+  R2-R1:   +31.0 pp 95% CI [+22.4, +39.5] pp N=70
+  R3-R1:   -16.2 pp 95% CI [-26.2, -5.7] pp N=70
+
+Claude minus 5-mini
+  R2-R1:    +3.3 pp 95% CI [-5.7, +12.9] pp N=70
+  R3-R1:    +3.8 pp 95% CI [-4.8, +12.4] pp N=70
+
+========================================================================================
+D. STRICT COMPLETE-TRIPLICATE SENSITIVITY
+========================================================================================
+
+4o-mini
+  parent-state R1:   -31.4 pp 95% CI [-39.6, -23.7] pp N=69
+  parent-state R2:    +7.2 pp 95% CI [+1.5, +13.2] pp N=69
+  parent-state R3:   -51.9 pp 95% CI [-61.9, -41.9] pp N=70
+  interaction R2-R1:   +39.2 pp 95% CI [+30.9, +48.0] pp N=68
+  interaction R3-R1:   -19.8 pp 95% CI [-28.4, -11.1] pp N=69
+
+5-mini
+  parent-state R1:    -3.8 pp 95% CI [-8.1, +0.5] pp N=70
+  parent-state R2:    +1.4 pp 95% CI [-2.4, +5.2] pp N=70
+  parent-state R3:   -11.0 pp 95% CI [-16.2, -6.2] pp N=70
+  interaction R2-R1:    +5.2 pp 95% CI [+0.0, +11.4] pp N=70
+  interaction R3-R1:    -7.1 pp 95% CI [-12.4, -1.9] pp N=70
+
+Claude
+  parent-state R1:    -2.4 pp 95% CI [-7.6, +2.4] pp N=69
+  parent-state R2:    +6.2 pp 95% CI [+2.4, +11.4] pp N=70
+  parent-state R3:    -5.9 pp 95% CI [-11.9, -0.5] pp N=68
+  interaction R2-R1:    +8.7 pp 95% CI [+2.4, +15.9] pp N=69
+  interaction R3-R1:    -3.0 pp 95% CI [-9.6, +3.2] pp N=67

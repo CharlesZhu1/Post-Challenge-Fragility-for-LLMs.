@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-08-13T15:16:05.217781+00:00",
+  "files": {
+    "STAGE1_ANALYSIS_FREEZE_V1.json": {
+      "bytes": 1866,
+      "sha256": "110a5d6efe304ddfe244bd4f394c769fe78ae07532da295bb989da97e8aad594"
+    },
+    "STAGE1_REPORT_V2.txt": {
+      "bytes": 10831,
+      "sha256": "0d650570cabd230eeb00311733d2f80ac1751b30bb34a626d769a2dc3d3e9815"
+    },
+    "STAGE1_RESULTS_V2.json": {
+      "bytes": 30648,
+      "sha256": "fbc7f08c7e212cbb199faf752ee3c20e3518a34deef33b54f20aa331ecdec1d3"
+    },
+    "run_stage1_v2.py": {
+      "bytes": 20003,
+      "sha256": "fb0fbe8be36e0322ac406ec184c96a206a2de851f4192e02ad00eac0e1ab5136"
+    }
+  },
+  "freeze_name": "STAGE1_FINAL_FREEZE_V2",
+  "interpretive_constraints": [
+    "paired seed-clustered cross-model DiD is primary interaction analysis",
+    "do not interpret preservation separately from destabilization as independent evidence",
+    "7 role-ambiguous seeds are retained for gold/revision analyses",
+    "exclusive G/T/N/U transitions are sensitivity analysis on 70 clean seeds",
+    "attribute destination labels may overlap",
+    "target attraction is not the dominant destination of destabilization",
+    "no causal mechanism claims from transition destinations alone"
+  ],
+  "status": "STAGE1_COMPLETE_FROZEN"
+}
